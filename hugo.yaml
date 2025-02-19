@@ -80,7 +80,7 @@ params:
     # width: 4
     #  align: start
   navigation:
-    #anchor: true
+    anchor: true
     logo: /logo-icon.png
     #color: body
     #fixed: true
@@ -91,7 +91,7 @@ params:
     #offsetXS: 5.5rem
     #search: true
     #searchModal: true
-    #breadcrumb: true
+    breadcrumb: true
     toc: true
     #sidebar: true
     #size: md
