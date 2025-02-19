@@ -1,0 +1,261 @@
+#baseURL: https://dev.svenaxmann.de
+#languageCode: en-us
+title: Sven Axmann Dev Blog
+
+module:
+  imports:
+    path: 'github.com/gethinode/hinode'
+
+copyright: "Copyright © 2025 Sven Axmann."
+
+taxonomies:
+  tag: tags
+
+
+menu:
+  main:
+    - name: About
+      pageRef: about
+      weight: 1
+    - name: Blog
+      pageRef: blog
+      weight: 2
+    - name: Projects
+      pageRef: projects
+      weight: 3
+    - name: Tags
+      pageRef: tags
+      weight: 4
+  social:
+    - name: LinkedIn
+      pre: fab linkedin
+      url: https://www.linkedin.com/in/sven-axmann/
+      weight: 1
+    - name: GitHub
+      pre: fab fa-github
+      url: https://github.com/sven-axm
+      weight: 2
+
+# params
+params:
+  main:
+    separator: "-"
+    description: Bla bla
+    enableDarkMode: true
+    #enableLanguageSelectionStorage: true
+    modes:
+      - light
+      - dark
+    loading: lazy
+    externalLinks:
+      cue: true
+      tab: true
+  canonifyAssetsURLs: false
+  footerBelowFold: false
+    
+  breakpoint: md
+  titleCase: true
+  internalLinks:
+    validate: true
+    pretty: true
+  
+  #build:
+    #transpiler: dartsass
+    #silenceDeprecations: true
+  #debugging:
+    #showJS: false
+    #showSCSS: false
+    #purgeHTMLComments: true
+    #includeSVGOrigin: true
+  home:
+    sections:
+      - blog
+      - projects
+    #fullCover: false
+    #centerHeadline: false
+    #style: ""
+    #feature:
+    #  orientation: horizontal
+    #  color: primary
+    # width: 4
+    #  align: start
+  navigation:
+    #anchor: true
+    logo: /logo-icon.png
+    #color: body
+    #fixed: true
+    #overlay: false
+    #overlayMode: dark
+    #horizontal: false
+    #offset: 5.5rem
+    #offsetXS: 5.5rem
+    #search: true
+    #searchModal: true
+    #breadcrumb: true
+    toc: true
+    #sidebar: true
+    #size: md
+  messages:
+    placement: bottom-right
+  sharing:
+    enabled: true
+    sort: weight
+    reverse: false
+    webshare: true
+    providers:
+      - name: LinkedIn
+        url: https://www.linkedin.com/sharing/share-offsite/?url={url}
+        icon: fab linkedin
+        weight: 10
+      - name: Twitter
+        url: https://twitter.com/home?status={url}
+        icon: fab x-twitter
+        weight: 20
+      - name: Facebook
+        url: https://www.facebook.com/sharer.php?u={url}
+        icon: fab facebook
+        weight: 30
+      - name: WhatsApp
+        url: whatsapp://send?text={title}%20{url}
+        icon: fab whatsapp
+        weight: 40
+      - name: email
+        url: "{url}"
+        icon: fas link
+        weight: 50
+        clipboard: true
+  sections:
+    blog:
+      title: Blog
+      sort: date
+      reverse: true
+      cols: 3
+      color: ""
+      padding: "0"
+      header: full
+      footer: none
+      orientation: stacked
+      style: border-0 card-zoom card-body-margin
+      homepage: 3
+      separator: true
+    projects:
+      title: Projects
+      layout: card
+      sort: title
+      reverse: false
+      nested: true
+      cols: 1
+      background: body-tertiary
+      color: body
+      padding: "3"
+      header: none
+      footer: tags
+      orientation: horizontal
+      style: border-1 card-emphasize
+      homepage: 3
+      separator: false
+  favicon:
+    logo: img/favicon.png
+    sizes:
+      - 16
+      - 32
+      - 48
+  style:
+    primary: "#4d4dff"
+    secondary: "#3655b3"
+    success: "#22f468"
+    info: "#36b3b3"
+    warning: "#ffb84d"
+    danger: "#ff4d4d"
+    light: "#c3e7e7"
+    dark: "#884dff"
+    themeOpacity: "10"
+    darkModeShade: 20%
+    darkModeTint: 40%
+    #themeFont: Inter
+    #themeFontPath: /fonts
+    #themeFontPreload: /fonts/inter-v12-latin-regular.woff2
+    #purge: true
+  # schema:
+  #   type: Organization
+  #   name: Hinode
+  #   locale: en-US
+  #   github: https://github.com/gethinode/hinode
+  #   section: blog
+  #   author:
+  #     name: Mark Dumay
+  #     linkedin: https://www.linkedin.com/in/markdumay/
+  #     github: https://github.com/markdumay
+  #   logo:
+  #     url: img/logo512x512.png
+  #     width: 512
+  #     height: 512
+  #   image:
+  #     url: img/logo1280x640.png
+  #     width: 1280
+  #     height: 640
+  # opengraph:
+  #   images:
+  #     - logo.png
+  #   locale: en_US
+  links:
+  #   bs_badge_heading: https://getbootstrap.com/docs/5.3/components/badge/#headings
+  #   hinode_docs: https://gethinode.com
+  #   hugo_imaging: https://gohugo.io/content-management/image-processing/#imaging-configuration
+    mozilla_image: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+  #   observatory: https://observatory.mozilla.org/analyze/demo.gethinode.com
+  #   pagespeed: https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F
+  #   hinode: https://gethinode.com
+  # modules:
+  #  cookieyes:
+  #    url: https://cdn-cookieyes.com/client_data/a54b5553f349dd13bd225f8e/script.js
+# params end
+
+markup:
+  defaultMarkdownHandler: goldmark
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: false
+    noClasses: false
+    tabWidth: 2
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+            - - $
+              - $
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
+
+
+
