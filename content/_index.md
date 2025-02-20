@@ -2,4 +2,4 @@
 title: Dev Blog
 ---
 
-Hello World
+Welcome to my dev-blog. There will be more content coming soon...

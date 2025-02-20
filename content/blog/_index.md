@@ -4,4 +4,4 @@ title: Blog
 nested: true
 ---
 
-blog page home
+I'm sure you will find something interesting in here. Once I got started...

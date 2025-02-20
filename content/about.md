@@ -7,31 +7,33 @@ type: minimal
 
 
 {{< persona thumbnail="img/me.jpg" title="Sven Axmann" color="primary" >}}
-  As a content creator you value your independence. You like to take control of your
-  online and offline presence. You want to focus on growing your audience, without
-  limitations.
 
-  Hinode gives you the tools to publish your blog in the way that you want. You have
-  full ownership and control of your content. That is why content creators choose
-  Hinode.
+    Hey there! I'm Sven, a developer, tech enthusiast, and professional Googler of error messages.  
+    I spend my days writing code, breaking code, and then pretending I meant to do that. My expertise lies in computer graphics with focus on the Vulkan API, C++, C#/.NET and machine learning (Python).  
+    This blog is where I share my journey through the ever-evolving world of development and what I learned and discovered on the way.  
+    When I’m not coding, you can find me making music, playing video games or on the way to a rollercoaster I haven't been on yet. 
+
 {{< /persona >}}
 
 
 
 {{< card-group align="center" class="border-0" padding="3" >}}
-    {{< card title="Computer Graphics" icon="fas code" >}}
-        Build fast, responsive sites with Bootstrap 5. Easily customize your site with the source Sass files.
+    {{< card title="Computer Graphics" icon="fas gamepad" >}}
+        
     {{< /card >}}
-    {{< card title="Vulkan" icon="fas code" >}}
-        Search your site with FlexSearch, a full-text search library with zero dependencies.
+    {{< card title="Vulkan" icon="fas volcano" >}}
+        
     {{< /card >}}
-    {{< card title="Machine Learning & Artificial Intelligence" icon="fas code" >}}
-        Use Node Package Manager to automate the build process and to keep track of dependencies.
+    {{< card title="Machine Learning & Artificial Intelligence" icon="fas robot" >}}
+        
     {{< /card >}}
     {{< card title="C++" icon="fas code" >}}
-        Use Node Package Manager to automate the build process and to keep track of dependencies.
+        
     {{< /card >}}
     {{< card title=".NET & C#" icon="fas code" >}}
-        Use Node Package Manager to automate the build process and to keep track of dependencies.
+        
+    {{< /card >}}
+    {{< card title="Python" icon="fas code" >}}
+        
     {{< /card >}}
 {{< /card-group >}}
