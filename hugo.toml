@@ -7,7 +7,7 @@ name = "Sven Axmann"
 #image = "img/author.jpg"
 headline = "Yes that's me."
 links = [
-{ twitter = "https://google.com"}
+{github = ""}, {linkedin = ""}
 ]
 
 colorScheme = "congo"
