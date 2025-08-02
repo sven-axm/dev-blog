@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Sven Axmann - Dev"
+
+[params.author]
+name = "Sven Axmann"
+#image = "img/author.jpg"
+headline = "Yes that's me."
+links = [
+{ twitter = "https://google.com"}
+]
+
+colorScheme = "congo"

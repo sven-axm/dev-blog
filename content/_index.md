@@ -1,5 +1,2 @@
----
-title: Dev Blog
----
+# Index
 
-Welcome to my dev-blog. There will be more content coming soon...

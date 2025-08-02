@@ -1,0 +1,26 @@
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Topics"
+  pageRef = "topics"
+  weight = 15
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+
+
+[[footer]]
+  name = "Impressum"
+  pageRef = "impressum"
+
+[[footer]]
+  name = "Privacy"
+  pageRef = "privacy"
+
+
