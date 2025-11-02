@@ -11,3 +11,6 @@ links = [
 ]
 
 colorScheme = "congo"
+
+[markup.goldmark.renderer]
+unsafe = true

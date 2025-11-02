@@ -3,7 +3,7 @@ title: "About"
 layout: "simple"
 ---
 
-
+<img src="/img/profile.png" alt="Profile" style="width: 40%; height: auto;" />
 
 Hey there! I'm Sven, a developer, tech enthusiast, and professional Googler of error messages.  
     I spend my days writing code, breaking code, and then pretending I meant to do that. My expertise lies in computer graphics with focus on the Vulkan API, C++, C#/.NET and machine learning (Python).  
