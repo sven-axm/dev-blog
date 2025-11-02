@@ -41,7 +41,7 @@ enableQuicklink = true
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = true
-  showComments = false
+  showComments = true 
   sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo", "xing", "bluesky"]
 
 [list]

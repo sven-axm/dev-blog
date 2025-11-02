@@ -5,6 +5,7 @@ draft: false
 description: "Some descriptionription"
 summary: "Cool summary."
 tags: ["abcTag", "TestTag"]
+showComments: true
 ---
 
 # Test Post 1
