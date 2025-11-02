@@ -1,7 +1,7 @@
 ---
 title: "ML Image Classifier"
 date: 2024-06-20
-draft: false
+draft: true 
 description: "A deep learning image classification system built with PyTorch"
 summary: "Custom neural network architecture for image classification with transfer learning capabilities and real-time inference."
 tags: ["Python", "PyTorch", "Machine Learning", "Deep Learning"]

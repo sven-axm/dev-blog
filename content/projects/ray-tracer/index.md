@@ -1,7 +1,7 @@
 ---
 title: "Path Tracer"
 date: 2024-11-05
-draft: false
+draft: true 
 description: "A physically-based path tracer implemented in C++ from scratch"
 summary: "Monte Carlo path tracing implementation with support for various materials, light sources, and advanced rendering techniques."
 tags: ["C++", "Graphics", "Ray Tracing", "Computer Graphics"]

@@ -1,7 +1,7 @@
 ---
 title: "Web Analytics Dashboard"
 date: 2024-09-10
-draft: false
+draft: true 
 description: "Real-time web analytics dashboard built with .NET and React"
 summary: "A full-stack application providing real-time website analytics with interactive visualizations and custom metric tracking."
 tags: ["C#", ".NET", "React", "TypeScript", "PostgreSQL"]

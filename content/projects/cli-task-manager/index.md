@@ -1,7 +1,7 @@
 ---
 title: "CLI Task Manager"
 date: 2024-05-12
-draft: false
+draft: true 
 description: "A powerful command-line task management tool written in Rust"
 summary: "Feature-rich CLI application for managing tasks with local storage, filtering, and integration with calendar systems."
 tags: ["Rust", "CLI", "Productivity", "Terminal"]
